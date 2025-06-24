@@ -1,0 +1,32 @@
+/* Styles généraux du corps */
+body{
+    background-color: #fff;
+    color: black;
+    font-family: serif;
+    font-size: 10pt;
+}
+div#conteneur{
+    width: 100%;
+    margin:0;
+    padding:0;
+    border: none;
+}
+/* Masquer les éléments non nécessaires */
+header,
+nav,
+footer
+{
+  display: none;
+}
+section article i {
+  display: none;
+}
+
+section article button {
+  display: none;
+}
+/* Liens affichés comme du texte */
+a::after {
+  content: " (" attr(href) ")";
+  font-size: 0.8em;
+}
