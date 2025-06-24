@@ -12,17 +12,14 @@ div#conteneur{
     border: none;
 }
 /* Masquer les éléments non nécessaires */
-header,
-nav,
+header div#headerNav,
+header button,
+main section#action,
 footer
 {
   display: none;
 }
 section article i {
-  display: none;
-}
-
-section article button {
   display: none;
 }
 /* Liens affichés comme du texte */
