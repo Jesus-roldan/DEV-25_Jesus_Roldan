@@ -11,6 +11,12 @@ div#conteneur{
     padding:0;
     border: none;
 }
+header h1,
+header div#headerArticle article h2,
+main section#contenu1 article h2{
+  color: black;
+   font-family: serif;
+}
 /* Masquer les éléments non nécessaires */
 header div#headerNav,
 header button,
